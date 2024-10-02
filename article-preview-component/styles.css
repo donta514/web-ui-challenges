@@ -1,0 +1,144 @@
+/* CSS Setup */
+
+/* Custom properties (variables) */
+:root {
+    /* Colors */
+    --color-very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --color-desaturated-dark-blue: hsl(214, 17%, 51%);
+    --color-grayish-blue: hsl(212, 23%, 69%);
+    --color-light-grayish-blue: hsl(210, 46%, 95%);
+
+    /* Typography */
+    --font-family: 'Manrope', sans-serif;
+    --font-size-base: 13px;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    /* Breakpoints */
+    --mobile: 375px;
+    --desktop: 1440px;
+}
+
+/* Base styles */
+html {
+    font-size: var(--font-size-base);
+    font-family: var(--font-family);
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-light-grayish-blue);
+    color: var(--color-very-dark-grayish-blue);
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: var(--font-weight-bold);
+    line-height: 1.2;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* Responsive container */
+.container {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Breakpoints */
+@media screen and (min-width: 320px) {
+    html {
+        font-size: calc(var(--font-size-base) * 0.9);
+    }
+}
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: var(--font-size-base);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+
+.font-medium {
+    font-weight: var(--font-weight-medium);
+}
+
+.font-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+.text-very-dark-grayish-blue {
+    color: var(--color-very-dark-grayish-blue);
+}
+
+.text-desaturated-dark-blue {
+    color: var(--color-desaturated-dark-blue);
+}
+
+.text-grayish-blue {
+    color: var(--color-grayish-blue);
+}
+
+.bg-light-grayish-blue {
+    background-color: var(--color-light-grayish-blue);
+}
+
+/* Accessibility */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Focus styles for keyboard navigation */
+:focus-visible {
+    outline: 2px solid var(--color-desaturated-dark-blue);
+    outline-offset: 2px;
+}
