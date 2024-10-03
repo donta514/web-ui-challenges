@@ -7,6 +7,7 @@
     --color-desaturated-dark-blue: hsl(214, 17%, 51%);
     --color-grayish-blue: hsl(212, 23%, 69%);
     --color-light-grayish-blue: hsl(210, 46%, 95%);
+    --color-white: hsl(0, 100%, 100%);
 
     /* Typography */
     --font-family: 'Manrope', sans-serif;
@@ -33,35 +34,39 @@ html {
     box-sizing: inherit;
 }
 
+
 body {
-    margin: 0;
-    padding: 0;
     background-color: var(--color-light-grayish-blue);
     color: var(--color-very-dark-grayish-blue);
+    margin: 0 !important;
+    padding: 0;
 }
 
 /* Typography */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: var(--font-weight-bold);
-    line-height: 1.2;
+p,
+div {
+    overflow-wrap: break-word;
+    margin: 0;
 }
 
-p {
-    margin-bottom: 1rem;
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#root,
+#__next {
+    isolation: isolate;
 }
 
 /* Responsive container */
 .container {
     width: 100%;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    margin-right: auto;
-    margin-left: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Breakpoints */
@@ -74,6 +79,10 @@ p {
 @media screen and (min-width: 375px) {
     html {
         font-size: var(--font-size-base);
+
+        .card {
+            max-width: 327px;
+        }
     }
 }
 
@@ -95,50 +104,152 @@ p {
     }
 }
 
-/* Utility classes */
-.text-center {
+.card {
+    margin-right: auto;
+    margin-left: auto;
+    background: var(--color-white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    .card__image {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .card__content {
+        display: grid;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 20px;
+        padding-top: 36px;
+
+        .card__content--bold {
+            font-weight: var(--font-weight-bold);
+            font-style: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: var(--color-very-dark-grayish-blue);
+            font-family: var(--font-family);
+            margin-bottom: 12px;
+        }
+
+        .card__content--medium {
+            font-weight: var(--font-weight-medium);
+            font-style: normal;
+            line-height: 20px;
+            letter-spacing: 0.121875px;
+            color: var(--color-desaturated-dark-blue);
+            font-family: var(--font-family);
+            margin-bottom: 32px;
+        }
+
+        .content__bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .profile {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                margin: 0;
+
+                .profile__image {
+                    border-radius: 100%;
+                }
+
+                .profile__name {
+                    display: grid;
+                    gap: 0;
+                    margin: 0;
+
+                    .name {
+                        font-style: normal;
+                        font-weight: var(--font-weight-bold);
+                        font-size: var(--font-size-base);
+                        line-height: 20px;
+                        letter-spacing: 0.121875px;
+                        color: var(--color-very-dark-grayish-blue);
+                        font-family: var(--font-family);
+                        margin: 0;
+                    }
+
+                    .date {
+                        font-family: var(--font-family);
+                        font-style: normal;
+                        font-size: var(--font-size-base);
+                        line-height: 20px;
+                        letter-spacing: 0.121875px;
+                        color: var(--color-grayish-blue);
+                        margin: 0;
+                    }
+                }
+
+            }
+
+            .share__button {
+                width: 32px;
+                height: 32px;
+                background: var(--color-light-grayish-blue);
+                border-radius: 100%;
+                margin: 0;
+                z-index: 1;
+
+                .icon {
+                    position: relative;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+    }
+
+    .share__button--active {
+        display: flex;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 22px;
+        padding-top: 22px;
+        background-color: var(--color-very-dark-grayish-blue);
+        border-radius: 0px 0px 10px 10px;
+
+        /* in active state */
+        position: absolute;
+        width: 327px;
+        bottom: 0px;
+        /* need to look into using javascript to change the bottom padding from 22 to 30 */
+
+        p {
+            font-family: var(--font-family);
+            font-style: normal;
+            font-weight: var(--font-weight-medium);
+            font-size: var(--font-size-base);
+            line-height: 20px;
+            letter-spacing: 5px;
+            color: var(--color-grayish-blue);
+            margin-right: 21px;
+        }
+
+        .facebook {
+            margin-right: 16px;
+        }
+
+        .twitter {
+            margin-right: 16px;
+        }
+    }
+}
+
+.attribution {
+    font-size: 11px;
     text-align: center;
-}
-
-.font-medium {
-    font-weight: var(--font-weight-medium);
-}
-
-.font-bold {
-    font-weight: var(--font-weight-bold);
-}
-
-.text-very-dark-grayish-blue {
-    color: var(--color-very-dark-grayish-blue);
-}
-
-.text-desaturated-dark-blue {
-    color: var(--color-desaturated-dark-blue);
-}
-
-.text-grayish-blue {
-    color: var(--color-grayish-blue);
-}
-
-.bg-light-grayish-blue {
-    background-color: var(--color-light-grayish-blue);
-}
-
-/* Accessibility */
-.sr-only {
     position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-}
+    margin: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-/* Focus styles for keyboard navigation */
-:focus-visible {
-    outline: 2px solid var(--color-desaturated-dark-blue);
-    outline-offset: 2px;
+    a {
+        color: hsl(228, 45%, 44%);
+    }
 }

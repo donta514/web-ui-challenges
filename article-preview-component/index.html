@@ -1,38 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel=""stylesheet href="./styles.css" />
-  <script defer src="./main.js"></script>
-  
-  <title>Frontend Mentor | Article preview component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./main.js"></script>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
-
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
-
-  Michelle Appleton
-  28 Jun 2020
-
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img
+          class="card__image"
+          src="./images/drawers.jpg"
+          width="327"
+          height="200"
+          alt="drawers image"
+        />
+        <div class="card__content">
+          <p class="card__content--bold">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </p>
+          <p class="card__content--medium">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+          <div class="content__bottom">
+            <div class="profile">
+              <img
+                class="profile__image"
+                src="./images/avatar-michelle.jpg"
+                width="40"
+                height="40"
+                alt="michelle avatar"
+              />
+              <div class="profile__name">
+                <p class="name">Michelle Appleton</p>
+                <p class="date">28 Jun 2020</p>
+              </div>
+            </div>
+            <div class="share__button">
+              <img
+                class="icon"
+                src="./images/icon-share.svg"
+                alt="share icon"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="share__button--active">
+          <p>SHARE</p>
+          <img
+            class="facebook"
+            src="./images/icon-facebook.svg"
+            width="20"
+            height="20"
+            alt="facebook icon"
+          />
+          <img
+            class="twitter"
+            src="./images/icon-twitter.svg"
+            width="20"
+            height="20"
+            alt="twitter icon"
+          />
+          <img
+            class="pinterest"
+            src="./images/icon-pinterest.svg"
+            width="20"
+            height="20"
+            alt="pinterest icon"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.dontasmith.com/">Donta Smith</a>.
+    </div>
+  </body>
 </html>

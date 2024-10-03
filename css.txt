@@ -1,0 +1,401 @@
+/* Group 4 */
+
+position: absolute;
+width: 327px;
+height: 512px;
+left: 24px;
+top: 74px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 327px;
+height: 512px;
+left: 24px;
+top: 74px;
+
+background: #FFFFFF;
+box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+border-radius: 10px;
+
+
+/* Bitmap */
+
+position: absolute;
+width: 327px;
+height: 200px;
+left: 24px;
+top: 74px;
+
+
+
+/* Mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border-radius: 10px 10px 0px 0px;
+
+
+/* Mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+border-radius: 10px 10px 0px 0px;
+
+
+/* Bitmap */
+
+position: absolute;
+width: 327px;
+height: 490px;
+left: calc(50% - 327px/2);
+top: calc(50% - 490px/2 - 99px);
+
+background: url(Image.png);
+
+
+/* Shift the overall lo */
+
+position: absolute;
+width: 263px;
+height: 72px;
+left: 56px;
+top: 310px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+letter-spacing: 0.2px;
+
+color: #48556A;
+
+
+
+/* Ever been in a room */
+
+position: absolute;
+width: 263px;
+height: 100px;
+left: 56px;
+top: 394px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* or 154% */
+letter-spacing: 0.121875px;
+
+color: #6E8098;
+
+
+
+/* Group 2 */
+
+position: absolute;
+width: 172px;
+height: 40px;
+left: 56px;
+top: 526px;
+
+
+
+/* Group */
+
+position: absolute;
+width: 116px;
+height: 40px;
+left: 112px;
+top: 526px;
+
+
+
+/* Michelle Appleton */
+
+position: absolute;
+height: 20px;
+left: 0%;
+right: 0%;
+top: calc(50% - 20px/2 - 10px);
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+letter-spacing: 0.121875px;
+
+color: #48556A;
+
+
+
+/* 28 Jun 2020 */
+
+position: absolute;
+height: 20px;
+left: 0%;
+right: 35.34%;
+top: calc(50% - 20px/2 + 10px);
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+letterspacing: 0.121875px;
+
+color: #9DAEC2;
+
+
+
+/* Oval */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 56px;
+top: 526px;
+
+background: url(Image.png);
+
+
+/* Oval 2 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 287px;
+top: 530px;
+
+
+
+/* Group 3 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 287px;
+top: 530px;
+
+
+
+/* Oval */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 287px;
+top: 530px;
+
+background: #ECF2F8;
+
+
+/* share(2) 2 */
+
+position: absolute;
+width: 15px;
+height: 13px;
+left: 296px;
+top: 539px;
+
+
+
+/* share(2) */
+
+position: absolute;
+width: 15px;
+height: 13px;
+left: 296px;
+top: 539px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 15px;
+height: 12.97px;
+left: 296px;
+top: 539.01px;
+
+background: #6E8098;
+
+
+
+/* Group */
+
+position: absolute;
+width: 327px;
+height: 64px;
+left: 24px;
+top: 514px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 327px;
+height: 64px;
+left: 24px;
+top: 514px;
+
+background: #48556A;
+border-radius: 0px 0px 10px 10px;
+
+
+/* Oval 2 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 287px;
+top: 530px;
+
+
+
+/* Group 3 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 287px;
+top: 530px;
+
+
+
+/* Oval */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 287px;
+top: 530px;
+
+background: #6E8098;
+
+
+/* share(2) 2 */
+
+position: absolute;
+width: 15px;
+height: 13px;
+left: 296px;
+top: 539px;
+
+
+
+/* share(2) */
+
+position: absolute;
+width: 15px;
+height: 13px;
+left: 296px;
+top: 539px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 15px;
+height: 12.97px;
+left: 296px;
+top: 539.01px;
+
+background: #FFFFFF;
+
+
+/* Group 8 */
+
+position: absolute;
+width: 175px;
+height: 20px;
+left: 56px;
+top: 536px;
+
+
+
+/* SHARE */
+
+position: absolute;
+height: 20px;
+left: 0%;
+right: 64.57%;
+top: calc(50% - 20px/2);
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+letter-spacing: 5px;
+
+color: #9DAEC2;
+
+
+
+/* Group 4 */
+
+position: absolute;
+width: 92px;
+height: 20px;
+left: 83px;
+top: 0px;
+
+
+
+/* Path */
+
+position: absolute;
+left: 47.43%;
+right: 41.14%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+
+
+/* Path */
+
+position: absolute;
+left: 88.57%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+
+
+/* Path */
+
+position: absolute;
+left: 68%;
+right: 20.57%;
+top: 11.24%;
+bottom: 7.49%;
+
+background: #FFFFFF;
+
+
+
+
+
