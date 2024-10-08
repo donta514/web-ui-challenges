@@ -51,13 +51,49 @@ div {
 
 img {
     display: block;
-    max-width: 100%;
     object-fit: cover;
 }
 
 #root,
 #__next {
     isolation: isolate;
+}
+
+/* Breakpoints */
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .card {
+        max-width: 327px;
+
+        .card__image {
+            width: 327px;
+            height: 200px;
+
+            .image {
+                width: 327px;
+                height: 200px;
+                border-radius: 10px 10px 0px 0px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        max-width: 730px;
+        display: flex;
+
+        .card__image {
+            width: 285px;
+            height: 280px;
+
+            .image {
+                width: 285px;
+                height: 280px;
+                border-radius: 10px 0px 0px 10px;
+            }
+        }
+    }
 }
 
 /* Responsive container */
@@ -67,178 +103,155 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
 
-/* Breakpoints */
-@media screen and (min-width: 320px) {
-    html {
-        font-size: calc(var(--font-size-base) * 0.9);
-    }
-}
+    .card {
+        margin-right: auto;
+        margin-left: auto;
+        background: var(--color-white);
+        border-radius: 10px;
+        box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
 
-@media screen and (min-width: 375px) {
-    html {
-        font-size: var(--font-size-base);
+        .card__content {
+            display: grid;
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-bottom: 20px;
+            padding-top: 36px;
 
-        .card {
-            max-width: 327px;
-        }
-    }
-}
+            @media screen and (min-width: 768px) {
+                padding: 32px 40px;
+            }
 
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-}
+            .card__content--bold {
+                font-weight: var(--font-weight-bold);
+                font-style: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: var(--color-very-dark-grayish-blue);
+                font-family: var(--font-family);
+                margin-bottom: 12px;
 
-@media screen and (min-width: 1024px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1320px;
-    }
-}
-
-.card {
-    margin-right: auto;
-    margin-left: auto;
-    background: var(--color-white);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-
-    .card__image {
-        border-radius: 10px 10px 0px 0px;
-    }
-
-    .card__content {
-        display: grid;
-        padding-left: 32px;
-        padding-right: 32px;
-        padding-bottom: 20px;
-        padding-top: 36px;
-
-        .card__content--bold {
-            font-weight: var(--font-weight-bold);
-            font-style: normal;
-            font-size: 16px;
-            line-height: 24px;
-            color: var(--color-very-dark-grayish-blue);
-            font-family: var(--font-family);
-            margin-bottom: 12px;
-        }
-
-        .card__content--medium {
-            font-weight: var(--font-weight-medium);
-            font-style: normal;
-            line-height: 20px;
-            letter-spacing: 0.121875px;
-            color: var(--color-desaturated-dark-blue);
-            font-family: var(--font-family);
-            margin-bottom: 32px;
-        }
-
-        .content__bottom {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            .profile {
-                display: flex;
-                align-items: center;
-                gap: 16px;
-                margin: 0;
-
-                .profile__image {
-                    border-radius: 100%;
+                @media screen and (min-width: 768px) {
+                    font-size: 20px;
+                    line-height: 28px;
+                    letter-spacing: 0.25px;
                 }
+            }
 
-                .profile__name {
-                    display: grid;
-                    gap: 0;
+            .card__content--medium {
+                font-weight: var(--font-weight-medium);
+                font-style: normal;
+                line-height: 20px;
+                letter-spacing: 0.121875px;
+                color: var(--color-desaturated-dark-blue);
+                font-family: var(--font-family);
+                margin-bottom: 32px;
+
+                @media screen and (min-width: 768px) {
+                    margin-bottom: 20px;
+                }
+            }
+
+            .content__bottom {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .profile {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
                     margin: 0;
 
-                    .name {
-                        font-style: normal;
-                        font-weight: var(--font-weight-bold);
-                        font-size: var(--font-size-base);
-                        line-height: 20px;
-                        letter-spacing: 0.121875px;
-                        color: var(--color-very-dark-grayish-blue);
-                        font-family: var(--font-family);
-                        margin: 0;
+                    .profile__image {
+                        border-radius: 100%;
                     }
 
-                    .date {
-                        font-family: var(--font-family);
-                        font-style: normal;
-                        font-size: var(--font-size-base);
-                        line-height: 20px;
-                        letter-spacing: 0.121875px;
-                        color: var(--color-grayish-blue);
+                    .profile__name {
+                        display: grid;
+                        gap: 0;
                         margin: 0;
+
+                        .name {
+                            font-style: normal;
+                            font-weight: var(--font-weight-bold);
+                            font-size: var(--font-size-base);
+                            line-height: 20px;
+                            letter-spacing: 0.121875px;
+                            color: var(--color-very-dark-grayish-blue);
+                            font-family: var(--font-family);
+                            margin: 0;
+                        }
+
+                        .date {
+                            font-family: var(--font-family);
+                            font-style: normal;
+                            font-size: var(--font-size-base);
+                            line-height: 20px;
+                            letter-spacing: 0.121875px;
+                            color: var(--color-grayish-blue);
+                            margin: 0;
+                        }
+                    }
+
+                }
+
+                .share__button {
+                    width: 32px;
+                    height: 32px;
+                    background: var(--color-light-grayish-blue);
+                    border-radius: 100%;
+                    margin: 0;
+                    z-index: 1;
+
+                    .icon {
+                        position: relative;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
                     }
                 }
-
-            }
-
-            .share__button {
-                width: 32px;
-                height: 32px;
-                background: var(--color-light-grayish-blue);
-                border-radius: 100%;
-                margin: 0;
-                z-index: 1;
-
-                .icon {
-                    position: relative;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                }
             }
         }
-    }
 
-    .share__button--active {
-        display: flex;
-        padding-left: 32px;
-        padding-right: 32px;
-        padding-bottom: 22px;
-        padding-top: 22px;
-        background-color: var(--color-very-dark-grayish-blue);
-        border-radius: 0px 0px 10px 10px;
+        .share__button--active {
+            /* display: flex; */
+            display: none;
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-bottom: 22px;
+            padding-top: 22px;
+            background-color: var(--color-very-dark-grayish-blue);
+            border-radius: 0px 0px 10px 10px;
 
-        /* in active state */
-        position: absolute;
-        width: 327px;
-        bottom: 0px;
-        /* need to look into using javascript to change the bottom padding from 22 to 30 */
+            /* in active state */
+            position: absolute;
+            width: 327px;
+            bottom: 0px;
+            /* need to look into using javascript to change the bottom padding from 22 to 30 */
 
-        p {
-            font-family: var(--font-family);
-            font-style: normal;
-            font-weight: var(--font-weight-medium);
-            font-size: var(--font-size-base);
-            line-height: 20px;
-            letter-spacing: 5px;
-            color: var(--color-grayish-blue);
-            margin-right: 21px;
-        }
+            p {
+                font-family: var(--font-family);
+                font-style: normal;
+                font-weight: var(--font-weight-medium);
+                font-size: var(--font-size-base);
+                line-height: 20px;
+                letter-spacing: 5px;
+                color: var(--color-grayish-blue);
+                margin-right: 21px;
+            }
 
-        .facebook {
-            margin-right: 16px;
-        }
+            .facebook {
+                margin-right: 16px;
+            }
 
-        .twitter {
-            margin-right: 16px;
+            .twitter {
+                margin-right: 16px;
+            }
         }
     }
 }
+
 
 .attribution {
     font-size: 11px;
