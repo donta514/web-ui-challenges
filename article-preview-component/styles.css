@@ -31,7 +31,9 @@ html {
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -110,6 +112,7 @@ img {
         background: var(--color-white);
         border-radius: 10px;
         box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+        overflow: hidden;
 
         .card__content {
             display: grid;
@@ -202,7 +205,6 @@ img {
                     background: var(--color-light-grayish-blue);
                     border-radius: 100%;
                     margin: 0;
-                    z-index: 1;
 
                     .icon {
                         position: relative;
@@ -215,8 +217,9 @@ img {
         }
 
         .share__button--active {
-            /* display: flex; */
-            display: none;
+            display: flex;
+            /* display: none; */
+            align-items: center;
             padding-left: 32px;
             padding-right: 32px;
             padding-bottom: 22px;
@@ -228,7 +231,6 @@ img {
             position: absolute;
             width: 327px;
             bottom: 0px;
-            /* need to look into using javascript to change the bottom padding from 22 to 30 */
 
             p {
                 font-family: var(--font-family);
@@ -243,10 +245,56 @@ img {
 
             .facebook {
                 margin-right: 16px;
+                width: 100%;
             }
 
             .twitter {
                 margin-right: 16px;
+                width: 100%;
+            }
+
+            .pinterest {
+                width: 100%;
+            }
+
+            .button__active {
+                margin-left: auto;
+                background-color: var(--color-desaturated-dark-blue);
+                border-radius: 100%;
+                width: 32px;
+                height: 32px;
+
+                .icon {
+                    position: relative;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            @media screen and (min-width: 768px) {
+                padding-left: 37px;
+                padding-right: 37px;
+                padding-bottom: 18px;
+                padding-top: 18px;
+                max-width: 248px;
+                border-radius: 10px;
+
+                .button__active {
+                    display: none;
+                }
+
+                .triangle {
+                    width: 0;
+                    height: 0;
+                    border-left: 24px solid transparent;
+                    border-right: 24px solid transparent;
+                    border-top: 24px solid var(--color-very-dark-grayish-blue);
+                    position: absolute;
+                    top: 100%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
             }
         }
     }
