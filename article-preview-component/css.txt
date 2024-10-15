@@ -1,118 +1,18 @@
-/* Group 9 */
+/* Ever been in a room */
 
 position: absolute;
-width: 248px;
-height: 67px;
-left: 905px;
-top: 389px;
-
-
-
-/* Combined Shape */
-
-position: absolute;
-width: 248px;
-height: 67px;
-left: 905px;
-top: 389px;
-
-background: #48556A;
-box-shadow: 0px 10px 10px rgba(201, 213, 225, 0.503415);
-
-
-/* Rectangle */
-
-position: absolute;
-width: 248px;
-height: 55px;
-left: 905px;
-top: 389px;
-
-background: #FFFFFF;
-box-shadow: 0px 10px 10px rgba(201, 213, 225, 0.503415);
-border-radius: 10px;
-
-
-/* Path 2 */
-
-position: absolute;
-width: 24px;
-height: 12px;
-left: 1017px;
-top: 444px;
-
-background: #48556A;
-border: 1px solid #979797;
-
-
-/* Group 8 */
-
-position: absolute;
-width: 175px;
-height: 20px;
-left: 942px;
-top: 407px;
-
-
-
-/* SHARE */
-
-position: absolute;
-height: 20px;
-left: 0%;
-right: 64.57%;
-top: calc(50% - 20px/2);
+width: 365px;
+height: 60px;
+left: 680px;
+top: 388px;
 
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 500;
 font-size: 13px;
 line-height: 20px;
-/* identical to box height, or 154% */
-letter-spacing: 5px;
+/* or 154% */
+letter-spacing: 0.121875px;
 
-color: #9DAEC2;
+color: #6E8098;
 
-
-
-/* Group 4 */
-
-position: absolute;
-width: 92px;
-height: 20px;
-left: 83px;
-top: 0px;
-
-
-
-/* Path */
-
-position: absolute;
-left: 47.43%;
-right: 41.14%;
-top: 0%;
-bottom: 0%;
-
-background: #FFFFFF;
-
-
-/* Path */
-
-position: absolute;
-left: 88.57%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: #FFFFFF;
-
-
-/* Path */
-
-position: absolute;
-left: 68%;
-right: 20.57%;
-top: 11.24%;
-bottom: 7.49%;
-
-background: #FFFFFF;
