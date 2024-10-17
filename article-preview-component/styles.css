@@ -63,7 +63,6 @@ img {
 
 .active {
     display: flex !important;
-    transition: margin-left 2s;
 }
 
 /* Breakpoints */
@@ -251,15 +250,30 @@ img {
                             height: 20px;
                         }
 
+                        .facebook:hover {
+                            transform: scale(1.1);
+                            transition: all 0.3s ease;
+                        }
+
                         .twitter {
                             margin-right: 16px;
                             width: 23.52px;
                             height: 20px;
                         }
 
+                        .twitter:hover {
+                            transform: scale(1.1);
+                            transition: all 0.3s ease;
+                        }
+
                         .pinterest {
                             width: 20px;
                             height: 20px;
+                        }
+
+                        .pinterest:hover {
+                            transform: scale(1.1);
+                            transition: all 0.3s ease;
                         }
 
                         .button__active {
