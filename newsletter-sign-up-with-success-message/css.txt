@@ -1,0 +1,815 @@
+/* Mobile */
+
+position: relative;
+width: 375px;
+height: 842px;
+
+/* White */
+background: #FFFFFF;
+
+
+/* Mask group */
+
+position: absolute;
+width: 375px;
+height: 284px;
+left: 0px;
+top: 0px;
+
+
+
+/* Rectangle Copy */
+
+position: absolute;
+width: 375px;
+height: 284px;
+left: 0px;
+top: 0px;
+
+/* Gradient 1 */
+background: linear-gradient(204.47deg, #FF6A3A 0%, #FF527B 100%);
+border-radius: 0px 0px 16px 16px;
+
+
+/* Rectangle Copy */
+
+position: absolute;
+width: 375px;
+height: 284px;
+left: 0px;
+top: 0px;
+
+/* Gradient 1 */
+background: linear-gradient(204.47deg, #FF6A3A 0%, #FF527B 100%);
+border-radius: 0px 0px 16px 16px;
+
+
+/* Group 41 */
+
+position: absolute;
+width: 407.57px;
+height: 220px;
+left: -16px;
+top: 24px;
+
+
+
+/* Group 36 */
+
+position: absolute;
+width: 407.57px;
+height: 208.11px;
+left: -16px;
+top: 35.89px;
+
+
+
+/* Group 35 */
+
+position: absolute;
+width: 234.05px;
+height: 156.22px;
+left: -16px;
+top: 87.78px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 234.05px;
+height: 156.22px;
+left: -16px;
+top: 87.78px;
+
+/* Dark Navy */
+background: #242742;
+/* 2 */
+box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.1);
+
+
+/* Mask group */
+
+position: absolute;
+width: 216.76px;
+height: 140px;
+left: -7.35px;
+top: 95.89px;
+
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 216.76px;
+height: 140px;
+left: -7.35px;
+top: 95.89px;
+
+background: linear-gradient(118.88deg, #FF3E83 13.84%, #FF9F2E 99.44%);
+/* 2 */
+box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.1);
+
+
+/* Mask group */
+
+position: absolute;
+width: 216.76px;
+height: 140px;
+left: -7.35px;
+top: 95.89px;
+
+
+
+/* Rectangle 18 */
+
+position: absolute;
+width: 216.76px;
+height: 140px;
+left: -7.35px;
+top: 95.89px;
+
+background: linear-gradient(118.88deg, #FF3E83 13.84%, #FF9F2E 99.44%);
+/* 2 */
+box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.1);
+
+
+/* Ellipse 17 */
+
+position: absolute;
+width: 170.81px;
+height: 170.81px;
+left: 118.05px;
+top: 142.38px;
+
+background: linear-gradient(180deg, #FFB443 0%, rgba(255, 91, 100, 0) 100%);
+
+
+/* Ellipse 18 */
+
+position: absolute;
+width: 170.81px;
+height: 170.81px;
+left: 66.4px;
+top: 198px;
+
+background: linear-gradient(180deg, #FFB443 0%, rgba(255, 91, 100, 0) 100%);
+transform: rotate(-135deg);
+
+
+/* Group 34 */
+
+position: absolute;
+width: 234.05px;
+height: 135.68px;
+left: 157.51px;
+top: 35.89px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 234.05px;
+height: 135.68px;
+left: 157.51px;
+top: 35.89px;
+
+background: linear-gradient(180deg, #F8F8F8 0%, #EEEEEE 100%);
+/* 2 */
+box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.1);
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 51.89px;
+height: 135.68px;
+left: 157.51px;
+top: 35.89px;
+
+background: linear-gradient(180deg, #CACBE8 0%, #EEEEEE 100%, #CACBE8 100%);
+
+
+/* Rectangle 23 */
+
+position: absolute;
+width: 36.76px;
+height: 3.78px;
+left: 165.08px;
+top: 61.3px;
+
+background: #BABBDB;
+
+
+/* Rectangle 24 */
+
+position: absolute;
+width: 32.97px;
+height: 3.78px;
+left: 165.08px;
+top: 72.11px;
+
+background: #BABBDB;
+
+
+/* Rectangle 25 */
+
+position: absolute;
+width: 36.76px;
+height: 3.78px;
+left: 165.08px;
+top: 82.92px;
+
+background: #BABBDB;
+
+
+/* Rectangle 26 */
+
+position: absolute;
+width: 24.86px;
+height: 3.78px;
+left: 165.08px;
+top: 93.73px;
+
+background: #BABBDB;
+
+
+/* Group 33 */
+
+position: absolute;
+width: 234.05px;
+height: 16.76px;
+left: 157.51px;
+top: 35.89px;
+
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 234.05px;
+height: 16.76px;
+left: 157.51px;
+top: 35.89px;
+
+/* Dark Navy */
+background: #242742;
+
+
+/* Group 32 */
+
+position: absolute;
+width: 30.81px;
+height: 7.03px;
+left: 166.16px;
+top: 40.76px;
+
+
+
+/* Ellipse 14 */
+
+position: absolute;
+width: 7.03px;
+height: 7.03px;
+left: 166.16px;
+top: 40.76px;
+
+background: #FF6464;
+
+
+/* Ellipse 15 */
+
+position: absolute;
+width: 7.03px;
+height: 7.03px;
+left: 178.05px;
+top: 40.76px;
+
+background: #FF9255;
+
+
+/* Ellipse 16 */
+
+position: absolute;
+width: 7.03px;
+height: 7.03px;
+left: 189.95px;
+top: 40.76px;
+
+background: #6BD5A8;
+
+
+/* Group 37 */
+
+position: absolute;
+width: 95.68px;
+height: 161.08px;
+left: 220.76px;
+top: 24px;
+
+
+
+/* Group 40 */
+
+position: absolute;
+width: 52.97px;
+height: 70.27px;
+left: 220.76px;
+top: 24px;
+
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 52.97px;
+height: 70.27px;
+left: 220.76px;
+top: 24px;
+
+background: #FFFFFF;
+
+
+/* Mask group */
+
+position: absolute;
+width: 52.97px;
+height: 70.27px;
+left: 220.76px;
+top: 24px;
+
+
+
+/* Rectangle 22 */
+
+position: absolute;
+width: 52.97px;
+height: 70.27px;
+left: 220.76px;
+top: 24px;
+
+background: #FFFFFF;
+
+
+/* Vector 4 (Stroke) */
+
+position: absolute;
+width: 64.86px;
+height: 43.78px;
+left: 214.81px;
+top: 39.14px;
+
+background: linear-gradient(243.51deg, #FF9049 1.27%, #FF5E5E 94.18%);
+
+
+/* Group 39 */
+
+position: absolute;
+width: 69.19px;
+height: 82.16px;
+left: 247.24px;
+top: 102.92px;
+
+
+
+/* Rectangle 21 */
+
+position: absolute;
+width: 69.19px;
+height: 82.16px;
+left: 247.24px;
+top: 102.92px;
+
+background: #FFFFFF;
+
+
+/* Group 38 */
+
+position: absolute;
+width: 50.27px;
+height: 50.27px;
+left: 256.97px;
+top: 118.59px;
+
+
+
+/* Ellipse 19 (Stroke) */
+
+position: absolute;
+width: 50.27px;
+height: 50.27px;
+left: 256.97px;
+top: 118.59px;
+
+background: linear-gradient(180deg, #FF6A3D 0%, #FF5B66 100%);
+
+
+/* Welcome! */
+
+position: absolute;
+width: 18.73px;
+height: 12.58px;
+left: calc(50% - 18.73px/2 + 94.85px);
+top: calc(50% - 12.58px/2 - 277.82px);
+
+background: #242742;
+
+
+/* Group 54 */
+
+position: absolute;
+width: 327px;
+height: 478px;
+left: 24px;
+top: 324px;
+
+
+
+/* Group 51 */
+
+position: absolute;
+width: 327px;
+height: 276px;
+left: 24px;
+top: 324px;
+
+
+
+/* title */
+
+position: absolute;
+width: 327px;
+height: 40px;
+left: calc(50% - 327px/2);
+top: calc(50% - 40px/2 - 77px);
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 100%;
+/* identical to box height, or 40px */
+
+/* Dark Navy */
+color: #242742;
+
+
+
+/* description */
+
+position: absolute;
+width: 327px;
+height: 48px;
+left: calc(50% - 327px/2);
+top: calc(50% - 48px/2 - 9px);
+
+/* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Dark Navy */
+color: #242742;
+
+
+
+/* Group 48 */
+
+position: absolute;
+width: 327px;
+height: 140px;
+left: 24px;
+top: 460px;
+
+
+
+/* Group 44 */
+
+position: absolute;
+width: 327px;
+height: 48px;
+left: 24px;
+top: 460px;
+
+
+
+/* Donec nec justo eget */
+
+position: absolute;
+width: 290px;
+height: 48px;
+left: calc(50% - 290px/2 + 18.5px);
+top: calc(50% - 48px/2 + 63px);
+
+/* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Dark Navy */
+color: #242742;
+
+
+
+/* check */
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: 24px;
+top: 461px;
+
+
+
+/* Oval */
+
+position: absolute;
+left: 6.4%;
+right: 88%;
+top: 54.75%;
+bottom: 42.76%;
+
+/* Vermellion */
+background: #FF6155;
+
+
+/* Path 2 */
+
+position: absolute;
+left: 8%;
+right: 89.6%;
+top: 55.7%;
+bottom: 43.59%;
+
+/* White */
+border: 2px solid #FFFFFF;
+
+
+/* Group 43 */
+
+position: absolute;
+width: 327px;
+height: 48px;
+left: 24px;
+top: 518px;
+
+
+
+/* Aliquam tincidunt ma */
+
+position: absolute;
+width: 290px;
+height: 48px;
+left: calc(50% - 290px/2 + 18.5px);
+top: calc(50% - 48px/2 + 121px);
+
+/* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Dark Navy */
+color: #242742;
+
+
+
+/* check */
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: 24px;
+top: 519px;
+
+
+
+/* Oval */
+
+position: absolute;
+left: 6.4%;
+right: 88%;
+top: 61.64%;
+bottom: 35.87%;
+
+/* Vermellion */
+background: #FF6155;
+
+
+/* Path 2 */
+
+position: absolute;
+left: 8%;
+right: 89.6%;
+top: 62.59%;
+bottom: 36.7%;
+
+/* White */
+border: 2px solid #FFFFFF;
+
+
+/* Group 42 */
+
+position: absolute;
+width: 327px;
+height: 24px;
+left: 24px;
+top: 576px;
+
+
+
+/* Vivamus vestibulum n */
+
+position: absolute;
+width: 290px;
+height: 24px;
+left: calc(50% - 290px/2 + 18.5px);
+top: calc(50% - 24px/2 + 167px);
+
+/* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+/* Dark Navy */
+color: #242742;
+
+
+
+/* check */
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: 24px;
+top: 578px;
+
+
+
+/* Oval */
+
+position: absolute;
+left: 6.4%;
+right: 88%;
+top: 68.65%;
+bottom: 28.86%;
+
+/* Vermellion */
+background: #FF6155;
+
+
+/* Path 2 */
+
+position: absolute;
+left: 8%;
+right: 89.6%;
+top: 69.6%;
+bottom: 29.69%;
+
+/* White */
+border: 2px solid #FFFFFF;
+
+
+/* Group 53 */
+
+position: absolute;
+width: 327px;
+height: 162px;
+left: 24px;
+top: 640px;
+
+
+
+/* Group 52 */
+
+position: absolute;
+width: 327px;
+height: 56px;
+left: 24px;
+top: 746px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 6.4%;
+right: 6.4%;
+top: 88.6%;
+bottom: 4.75%;
+
+/* Dark Navy */
+background: #242742;
+border-radius: 8px;
+
+
+/* Get Started */
+
+position: absolute;
+width: 233px;
+height: 24px;
+left: calc(50% - 233px/2 + 1px);
+top: calc(50% - 24px/2 + 355px);
+
+/* Body (Bold) */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-align: center;
+
+/* White */
+color: #FFFFFF;
+
+
+
+/* Group 50 */
+
+position: absolute;
+width: 327px;
+height: 82px;
+left: 24px;
+top: 640px;
+
+
+
+/* Group 49 */
+
+position: absolute;
+width: 327px;
+height: 56px;
+left: 24px;
+top: 666px;
+
+
+
+/* Rectangle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 6.4%;
+right: 6.4%;
+top: 79.1%;
+bottom: 14.25%;
+
+/* Grey 25% */
+border: 1px solid rgba(25, 24, 43, 0.25);
+border-radius: 8px;
+
+
+/* Your email address.. */
+
+position: absolute;
+width: 154px;
+height: 24px;
+left: calc(50% - 154px/2 - 62.5px);
+top: calc(50% - 24px/2 + 273px);
+
+/* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+/* Dark Navy */
+color: #242742;
+
+opacity: 0.5;
+
+
+/* Vivamus vestibulum n */
+
+position: absolute;
+width: 76px;
+height: 18px;
+left: calc(50% - 76px/2 - 125.5px);
+top: calc(50% - 18px/2 + 228px);
+
+/* Body Small */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+/* Dark Navy */
+color: #242742;
+
