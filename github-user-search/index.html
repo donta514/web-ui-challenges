@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
     <link
       rel="icon"
       type="image/png"
@@ -12,14 +11,96 @@
       href="./assets/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./styles.css" />
-
     <title>Frontend Mentor | GitHub User Search App</title>
   </head>
   <body>
     <main>
       <div class="container">
-        <div class="card">Hello World</div>
+        <div class="app">
+          <div class="header-controls">
+            <h1 class="logo">devfinder</h1>
+            <div class="toggle">
+              <span>LIGHT</span>
+              <img src="./assets/icon-sun.svg" alt="dark mode toggle" />
+            </div>
+          </div>
+          <div class="search-bar">
+            <img
+              src="./assets/icon-search.svg"
+              alt="search icon"
+              class="search-icon"
+            />
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search GitHub username_"
+            />
+            <button class="search-button">Search</button>
+          </div>
+          <div id="cardContainer" class="card">
+            <div class="profile">
+              <img src="" alt="profile image" class="profile-image" />
+              <div class="profile-info">
+                <p class="name">${data.name}</p>
+                <p class="login">@${data.login}</p>
+                <p class="date-joined">${data.created_at}</p>
+              </div>
+              <p class="profile-bio">${data.bio}</p>
+              <div class="profile-stats">
+                <div class="repositories">
+                  <p class="repositories-category">Repos</p>
+                  <p class="repositories-value">${data.public_repos}</p>
+                </div>
+                <div class="followers">
+                  <p class="followers-category">Followers</p>
+                  <p class="followers-value">${data.followers}</p>
+                </div>
+                <div class="following">
+                  <p class="following-category">Following</p>
+                  <p class="following-value">${data.following}</p>
+                </div>
+              </div>
+              <div class="profile-socials">
+                <div class="location">
+                  <img
+                    src="./assets/icon-location.svg"
+                    alt=""
+                    class="location-icon"
+                  />
+                  <p class="location-name">${data.location}</p>
+                </div>
+                <div class="website">
+                  <img
+                    src="./assets/icon-website.svg"
+                    alt="website icon"
+                    class="website-icon"
+                  />
+                  <a href="${data.html_url}" class="website-link"
+                    >${data.html_url}</a
+                  >
+                </div>
+                <div class="twitter">
+                  <img
+                    src="./assets/icon-twitter.svg"
+                    alt="Twitter icon"
+                    class="twitter-icon"
+                  />
+                  <p class="twitter-name">${data.twitter_username}</p>
+                </div>
+                <div class="company">
+                  <img
+                    src="./assets/icon-company.svg"
+                    alt="company-icon"
+                    class="company-icon"
+                  />
+                  <p class="company-name">${data.company}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>

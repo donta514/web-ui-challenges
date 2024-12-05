@@ -148,4 +148,17 @@ input::placeholder {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    .app {
+        display: grid;
+        justify-content: center;
+        gap: 25px;
+        .header-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .toggle {
+                display: flex;
+            }
+        }
+    }
 }
