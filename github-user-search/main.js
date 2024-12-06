@@ -43,43 +43,51 @@ document.addEventListener("DOMContentLoaded", () => {
     profileImage.src = data.avatar_url;
 
     // Update the profile information
-    document.querySelector(".name").textContent =
-      data.name || "Name not available";
+    document.querySelector(".name").textContent = data.name || data.login;
     document.querySelector(".login").textContent = `@${data.login}`;
-    document.querySelector(".date-joined").textContent = new Date(
+    document.querySelector(".date-joined").textContent = `Joined ${new Date(
       data.created_at
     ).toLocaleDateString("en-GB", {
       day: "numeric",
       month: "long",
       year: "numeric",
-    });
+    })}`;
 
     // Update the profile summary
-    document.querySelector(".profile-bio").textContent =
-      data.bio || "Not Available";
+    updateElement(".profile-bio", data.bio, "This profile has no bio");
 
     // Update the profile stats
-    document.querySelector(".repositories-value").textContent =
-      data.public_repos;
-    document.querySelector(".followers-value").textContent = data.followers;
-    document.querySelector(".following-value").textContent = data.following;
+    updateElement(".repositories-value", data.public_repos);
+    updateElement(".followers-value", data.followers || "0");
+    updateElement(".following-value", data.following || "0");
 
     // Update the profile socials
-    document.querySelector(".location-name").textContent =
-      data.location || "Location not specified";
-    const websiteLink = document.querySelector(".website-link");
-    if (data.html_url) {
-      websiteLink.href = data.html_url;
-      websiteLink.textContent = data.html_url;
-    } else {
-      websiteLink.href = "#";
-      websiteLink.textContent = "Not Available";
-    }
+    updateElement(".location-name", data.location, "Not Available");
+    updateLink(".website-link", data.blog, "Not Available");
+    updateLink(".twitter-name", data.twitter_username, "Not Available", true);
+    updateLink(".company-name", data.company, "Not Available");
+  }
 
-    document.querySelector(".twitter-name").textContent =
-      data.twitter_username || "Not Available";
-    document.querySelector(".company-name").textContent =
-      data.company || "Not Available";
+  // Helper function to update text content and add a class if data is missing
+  function updateElement(selector, value, defaultValue) {
+    const element = document.querySelector(selector);
+    element.textContent = value || defaultValue;
+    if (!value) {
+      element.classList.add("not-available");
+    }
+  }
+
+  // Helper function to update link elements
+  function updateLink(selector, value, defaultValue, isTwitter = false) {
+    const element = document.querySelector(selector);
+    if (value) {
+      element.textContent = value;
+      element.href = isTwitter ? `https://twitter.com/${value}` : value;
+    } else {
+      element.textContent = defaultValue;
+      element.href = "#";
+      element.classList.add("not-available");
+    }
   }
 
   fetchUsers("octocat");

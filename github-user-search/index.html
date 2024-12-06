@@ -17,67 +17,105 @@
     <main>
       <div class="container">
         <div class="app">
+          <!-- App Header -->
           <div class="header-controls">
-            <h1 class="logo">devfinder</h1>
-            <div class="toggle">
-              <span>LIGHT</span>
-              <img src="./assets/icon-sun.svg" alt="dark mode toggle" />
+            <img src="./assets/icon-logo.svg" alt="devfinder logo" class="logo">
+            <div class="toggle" aria-label="Toggle dark mode">
+              <span class="toggle-mode">LIGHT</span>
+              <img
+                class="toggle-icon"
+                src="./assets/icon-sun.svg"
+                alt="Toggle dark mode"
+              />
             </div>
           </div>
+
+          <!-- Search Bar -->
           <div class="search-bar">
             <img
               src="./assets/icon-search.svg"
-              alt="search icon"
+              alt=""
               class="search-icon"
+              aria-hidden="true"
             />
+            <label for="search-input" class="sr-only"
+              >Search GitHub username</label
+            >
             <input
+              id="search-input"
               type="text"
               class="search-input"
               placeholder="Search GitHub username_"
+              aria-label="Search GitHub username"
             />
-            <button class="search-button">Search</button>
+            <button class="search-button" aria-label="Search">Search</button>
           </div>
-          <div id="cardContainer" class="card">
+
+          <!-- Profile Card -->
+          <div class="card" role="region" aria-labelledby="profile-heading">
             <div class="profile">
-              <img src="" alt="profile image" class="profile-image" />
+              <img
+                src=""
+                alt="GitHub user's profile picture"
+                class="profile-image"
+              />
               <div class="profile-info">
-                <p class="name">${data.name}</p>
-                <p class="login">@${data.login}</p>
-                <p class="date-joined">${data.created_at}</p>
+                <h1 id="profile-heading" class="name"></h1>
+                <p class="login" aria-label="Username"></p>
+                <p class="date-joined" aria-label="Date joined"></p>
               </div>
-              <p class="profile-bio">${data.bio}</p>
+              <p class="profile-bio" aria-label="User bio"></p>
+
+              <!-- Profile Stats -->
               <div class="profile-stats">
                 <div class="repositories">
                   <p class="repositories-category">Repos</p>
-                  <p class="repositories-value">${data.public_repos}</p>
+                  <p
+                    class="repositories-value"
+                    aria-label="Number of repositories"
+                  ></p>
                 </div>
                 <div class="followers">
                   <p class="followers-category">Followers</p>
-                  <p class="followers-value">${data.followers}</p>
+                  <p
+                    class="followers-value"
+                    aria-label="Number of followers"
+                  ></p>
                 </div>
                 <div class="following">
                   <p class="following-category">Following</p>
-                  <p class="following-value">${data.following}</p>
+                  <p
+                    class="following-value"
+                    aria-label="Number of following"
+                  ></p>
                 </div>
               </div>
+
+              <!-- Profile Socials -->
               <div class="profile-socials">
                 <div class="location">
                   <img
                     src="./assets/icon-location.svg"
                     alt=""
                     class="location-icon"
+                    aria-hidden="true"
                   />
-                  <p class="location-name">${data.location}</p>
+                  <p class="location-name" aria-label="Location">Location</p>
                 </div>
                 <div class="website">
                   <img
                     src="./assets/icon-website.svg"
-                    alt="website icon"
+                    alt=""
                     class="website-icon"
+                    aria-hidden="true"
                   />
-                  <a href="${data.html_url}" class="website-link"
-                    >${data.html_url}</a
+                  <a
+                    href="#"
+                    class="website-link"
+                    aria-label="User's website link"
                   >
+                    Website
+                  </a>
                 </div>
                 <div class="twitter">
                   <img
@@ -85,15 +123,17 @@
                     alt="Twitter icon"
                     class="twitter-icon"
                   />
-                  <p class="twitter-name">${data.twitter_username}</p>
+                  <a href="#" class="twitter-name"
+                  aria-label="User's Twitter link">Twitter</a>
                 </div>
                 <div class="company">
                   <img
                     src="./assets/icon-company.svg"
-                    alt="company-icon"
+                    alt=""
                     class="company-icon"
+                    aria-hidden="true"
                   />
-                  <p class="company-name">${data.company}</p>
+                  <a href="#" class="company-name" aria-label="Company link">Company</a>
                 </div>
               </div>
             </div>
