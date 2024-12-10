@@ -78,7 +78,7 @@ button {
     --body-line-height: 25px;
 
     /* States */
-    --error: #FF6347;
+    --error: #F74646;
     /* Example error color for no results state */
 }
 
@@ -88,7 +88,7 @@ button {
         --background-light: var(--background-dark);
         --card-light: var(--card-dark);
         --text-primary-light: var(--text-white);
-        --text-secondary-light: var(--text-muted-light);
+        --text-secondary-light: var(--text-white);
     }
 } */
 
@@ -209,6 +209,7 @@ input::placeholder {
             padding-bottom: 7.5px;
             padding-right: 7px;
 
+
             .search-icon {
                 width: 20px;
                 height: 20px;
@@ -218,12 +219,11 @@ input::placeholder {
             .search-input {
                 width: 100%;
                 border: none;
+                outline: none;
                 background: var(--card-light);
                 font-size: var(--h4-size);
                 line-height: var(--body-line-height);
                 font-weight: 400;
-                color: var(--text-secondary-light);
-
             }
 
             .search-button {
