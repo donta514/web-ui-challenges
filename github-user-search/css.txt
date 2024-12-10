@@ -686,3 +686,151 @@ right: 80.34%;
 top: 56.25%;
 bottom: 37.5%;
 
+
+
+
+/* Group 2 */
+
+position: absolute;
+width: 327px;
+height: 60px;
+left: 24px;
+top: 105px;
+
+
+
+/* Rectangle Copy 2 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FEFEFE;
+box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+border-radius: 15px;
+
+
+/* Search GitHub userna */
+
+position: absolute;
+height: 25px;
+left: 13.76%;
+right: 29.97%;
+top: calc(50% - 25px/2 + 0.5px);
+
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 25px;
+/* identical to box height, or 192% */
+
+color: #4B6A9B;
+
+
+
+/* Shape 2 */
+
+position: absolute;
+width: 20.05px;
+height: 20px;
+left: 16px;
+top: 20px;
+
+
+
+/* Combined Shape */
+
+position: absolute;
+left: 4.89%;
+right: 88.98%;
+top: 33.33%;
+bottom: 33.33%;
+
+background: #0079FF;
+
+
+/* Shape */
+
+position: absolute;
+left: 4.89%;
+right: 89.7%;
+top: 33.33%;
+bottom: 37.28%;
+
+background: #FF411F;
+
+
+/* Path */
+
+position: absolute;
+left: 4.89%;
+right: 89.7%;
+top: 33.33%;
+bottom: 37.28%;
+
+
+
+/* Path */
+
+position: absolute;
+left: 5.34%;
+right: 90.14%;
+top: 35.75%;
+bottom: 39.69%;
+
+
+
+/* Path */
+
+position: absolute;
+left: 9.13%;
+right: 88.98%;
+top: 56.36%;
+bottom: 33.33%;
+
+background: #FF411F;
+
+
+/* Group */
+
+position: absolute;
+left: 72.17%;
+right: 2.14%;
+top: 10.83%;
+bottom: 12.5%;
+
+
+
+/* Rectangle Copy 3 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #0079FF;
+border-radius: 10px;
+
+
+/* Search */
+
+position: absolute;
+height: 21px;
+left: 21.43%;
+right: 16.67%;
+top: calc(50% - 21px/2);
+
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+

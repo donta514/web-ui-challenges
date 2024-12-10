@@ -156,11 +156,14 @@ input::placeholder {
 
 .container {
     width: 100%;
-    height: 100vh;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    @media screen and (max-width: 768px) {
+        height: 100vh;
+    }
 
     .app {
         display: grid;
@@ -193,21 +196,34 @@ input::placeholder {
         }
 
         .search-bar {
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            background: var(--card-light);
+            border-radius: 15px;
+            box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+            padding-left: 16px;
+            padding-top: 6.5px;
+            padding-bottom: 7.5px;
+            padding-right: 7px;
+
             .search-icon {
                 width: 20px;
                 height: 20px;
+                margin-right: 9px;
             }
 
             .search-input {
                 width: 100%;
-                padding: 20px;
                 border: none;
                 background: var(--card-light);
-                border-radius: 15px;
-                box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
                 font-size: var(--h4-size);
                 line-height: var(--body-line-height);
                 font-weight: 400;
+                color: var(--text-secondary-light);
+
             }
 
             .search-button {
@@ -215,6 +231,10 @@ input::placeholder {
                 color: var(--text-white);
                 padding: 12.5px 18px;
                 border-radius: 10px;
+                font-size: 14px;
+                line-height: 21px;
+                font-weight: 700;
+                text-align: center;
             }
         }
 
@@ -222,12 +242,13 @@ input::placeholder {
             box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
             background: var(--card-light);
             border-radius: 15px;
-            padding: 0 24px;
+            padding: 32px 24px 48px 24px;
 
             .profile {
                 .profile-head {
                     display: flex;
                     align-items: center;
+                    margin-bottom: 33px;
 
                     .profile-image {
                         width: 70px;
@@ -239,7 +260,7 @@ input::placeholder {
                     .profile-info {
                         display: grid;
 
-                        .profile-heading {
+                        .name {
                             color: var(--text-primary-light);
                             font-weight: 700;
                             font-size: 1rem;
@@ -258,6 +279,167 @@ input::placeholder {
                             color: var(--text-muted-light);
                             font-size: var(--h4-size);
                             line-height: var(--h4-line-height);
+                            font-weight: 400;
+                        }
+                    }
+                }
+
+                .profile-bio {
+                    margin-bottom: 23px;
+                    color: var(--text-secondary-light);
+                    font-weight: 400;
+                    line-height: var(--body-line-height);
+                    font-size: var(--h4-size);
+                }
+
+                .profile-stats {
+                    display: flex;
+                    background-color: var(--background-light);
+                    border-radius: 10px;
+                    padding: 18px 15px 19px 14px;
+                    justify-content: center;
+                    margin-bottom: 24px;
+
+                    .repositories {
+                        width: 79px;
+
+                        .repositories-category {
+                            color: var(--text-secondary-light);
+                            text-align: center;
+                            line-height: 16px;
+                            font-size: 11px;
+                            font-weight: 400;
+                            margin-bottom: 8px;
+                        }
+
+                        .repositories-value {
+                            color: var(--text-primary-light);
+                            text-align: center;
+                            text-transform: uppercase;
+                            line-height: var(--h3-line-height);
+                            font-size: 1rem;
+                            font-weight: 700;
+                        }
+
+                    }
+
+                    .followers {
+                        width: 81px;
+
+                        .followers-category {
+                            color: var(--text-secondary-light);
+                            text-align: center;
+                            line-height: 16px;
+                            font-size: 11px;
+                            font-weight: 400;
+                            margin-bottom: 8px;
+                        }
+
+                        .followers-value {
+                            color: var(--text-primary-light);
+                            text-align: center;
+                            text-transform: uppercase;
+                            line-height: var(--h3-line-height);
+                            font-size: 1rem;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .following {
+                        width: 89px;
+
+                        .following-category {
+                            color: var(--text-secondary-light);
+                            text-align: center;
+                            line-height: 16px;
+                            font-size: 11px;
+                            font-weight: 400;
+                            margin-bottom: 8px;
+                        }
+
+                        .following-value {
+                            color: var(--text-primary-light);
+                            text-align: center;
+                            text-transform: uppercase;
+                            line-height: var(--h3-line-height);
+                            font-size: 1rem;
+                            font-weight: 700;
+                        }
+                    }
+                }
+
+                .profile-socials {
+                    display: grid;
+                    gap: 1rem;
+
+                    .location {
+                        display: flex;
+                        align-items: center;
+                        gap: 19px;
+
+                        .location-icon {
+                            width: 13.75px;
+                            height: 20px;
+                        }
+
+                        .location-name {
+                            color: var(--text-secondary-light);
+                            line-height: var(--h4-line-height);
+                            font-size: var(--h4-size);
+                            font-weight: 400;
+                        }
+                    }
+
+                    .website {
+                        display: flex;
+                        align-items: center;
+                        gap: 13px;
+
+                        .website-icon {
+                            width: 20px;
+                            height: 20px;
+                        }
+
+                        .website-link {
+                            color: var(--text-secondary-light);
+                            font-weight: 400;
+                            font-size: var(--h4-size);
+                            line-height: var(--h4-line-height);
+                        }
+                    }
+
+                    .twitter {
+                        display: flex;
+                        align-items: center;
+                        gap: 13px;
+
+                        .twitter-icon {
+                            width: 20px;
+                            height: 18px;
+                        }
+
+                        .twitter-name {
+                            color: var(--text-secondary-light);
+                            line-height: var(--h4-line-height);
+                            font-size: var(--h4-size);
+                            font-weight: 400;
+                        }
+                    }
+
+                    .company {
+                        display: flex;
+                        align-items: center;
+                        gap: 13px;
+
+                        .company-icon {
+                            width: 20px;
+                            height: 20px;
+                        }
+
+                        .company-name {
+                            color: var(--text-secondary-light);
+                            line-height: var(--h4-line-height);
+                            font-size: var(--h4-size);
                             font-weight: 400;
                         }
                     }
