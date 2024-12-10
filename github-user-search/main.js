@@ -1,11 +1,4 @@
 const API_ENDPOINT = "https://api.github.com/users/";
-// const darkModeToggle = document.querySelector(".toggle");
-// const toggleMode = document.querySelector(".toggle-mode");
-// const toggleIcon = docment.querySelector("toggle-icon");
-
-// darkModeToggle.addEventListener("click", () => {
-//   toggleMode.innerHTML = "LIGHT";
-// });
 
 // Load the Octocat profile on initial page load then load user input data following a search
 document.addEventListener("DOMContentLoaded", () => {
@@ -38,7 +31,9 @@ document.addEventListener("DOMContentLoaded", () => {
       const searchInput = document.querySelector(".search-input");
       searchInput.classList.add("error");
       searchInput.value = "No results";
+      searchInput.style.textAlign = "right";
       setTimeout(() => {
+        searchInput.style.textAlign = "left";
         searchInput.classList.remove("error");
         searchInput.value = "";
       }, 2000);

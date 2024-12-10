@@ -83,14 +83,14 @@ button {
 }
 
 /* Dark Mode Specific Variables */
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
         --background-light: var(--background-dark);
         --card-light: var(--card-dark);
         --text-primary-light: var(--text-white);
         --text-secondary-light: var(--text-white);
     }
-} */
+}
 
 /* Typography Styles */
 h1 {
@@ -135,6 +135,8 @@ input::placeholder {
 /* States */
 .error {
     color: var(--error);
+    font-weight: 700;
+    font-size: clamp(0.8125rem, 0.7768rem + 0.1786vw, 0.9375rem);
 }
 
 /* Utility */
@@ -161,15 +163,16 @@ input::placeholder {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
         height: 100vh;
     }
 
     .app {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         gap: 25px;
-        padding: 31px 24px;
+        padding: 0 24px;
 
         .header-controls {
             display: flex;
@@ -221,7 +224,7 @@ input::placeholder {
                 border: none;
                 outline: none;
                 background: var(--card-light);
-                font-size: var(--h4-size);
+                font-size: clamp(0.5625rem, -0.892rem + 7.2727vw, 0.8125rem);
                 line-height: var(--body-line-height);
                 font-weight: 400;
             }
@@ -277,7 +280,7 @@ input::placeholder {
 
                         .date-joined {
                             color: var(--text-muted-light);
-                            font-size: var(--h4-size);
+                            font-size: clamp(0.6875rem, -0.0398rem + 3.6364vw, 0.8125rem);
                             line-height: var(--h4-line-height);
                             font-weight: 400;
                         }
@@ -442,6 +445,239 @@ input::placeholder {
                             font-size: var(--h4-size);
                             font-weight: 400;
                         }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1439px) {
+        .app {
+            padding: 0 6.125rem;
+
+
+            .search-bar {
+                padding-left: 32px;
+                padding-top: 9.5px;
+                padding-bottom: 9.5px;
+                padding-right: 10px;
+
+                .search-icon {
+                    margin-right: 24px;
+                }
+
+                .search-input {
+                    font-size: 1.125rem;
+                    font-weight: 400;
+                    line-height: var(--body-line-height);
+                }
+
+                .search-button {
+                    font-weight: 700;
+                    font-size: 1rem;
+                    line-height: var(--body-line-height);
+                    padding: 12.5px 24px;
+                }
+
+            }
+
+            .card {
+                .profile {
+
+                    .profile-head {
+                        margin-bottom: 24px;
+
+                        .profile-image {
+                            width: 117px;
+                            height: 117px;
+                            margin-right: 41px;
+                        }
+
+                        .profile-info {
+                            .name {
+                                font-size: 26px;
+                                line-height: 39px;
+                                font-weight: 700;
+                            }
+
+                            .login {
+                                margin-bottom: 4px;
+                                font-size: 1rem;
+                                line-height: var(--h3-line-height);
+                                font-weight: 400;
+                            }
+
+                            .date-joined {
+                                font-weight: 400;
+                                font-size: var(--body-size);
+                                line-height: 22px;
+                            }
+                        }
+                    }
+
+                    .profile-bio {
+                        margin-bottom: 32px;
+                        font-size: var(--body-size);
+                        line-height: var(--body-line-height);
+                        font-weight: 400;
+                    }
+
+                    .profile-stats {
+                        justify-content: left;
+                        padding-left: 32px;
+                        padding-top: 15px;
+                        padding-bottom: 17px;
+                        margin-bottom: 30px;
+
+                        .repositories {
+                            width: 40px;
+                            margin-right: 99px;
+
+                            .repositories-category {
+                                font-size: var(--h4-size);
+                                line-height: 19px;
+                                font-weight: 400;
+                                margin-bottom: 1px;
+                            }
+
+                            .repositories-value {
+                                text-align: left;
+                                font-size: var(--h2-size);
+                                line-height: var(--h2-line-height);
+                                font-weight: 700;
+                            }
+                        }
+
+                        .followers {
+                            width: 72px;
+                            margin-right: 82px;
+
+                            .followers-category {
+                                margin-bottom: 1px;
+                                font-size: var(--h4-size);
+                                font-weight: 400;
+                                line-height: var(--h4-line-height);
+                            }
+
+                            .followers-value {
+                                text-align: left;
+                                font-size: var(--h2-size);
+                                line-height: var(--h2-line-height);
+                                font-weight: 700;
+
+                            }
+                        }
+
+                        .following {
+                            width: 72px;
+
+                            .following-category {
+                                font-weight: 400;
+                                margin-bottom: 1px;
+                                font-size: var(--h4-size);
+                                line-height: var(--h4-line-height);
+                            }
+
+                            .following-value {
+                                text-align: left;
+                                font-size: var(--h2-size);
+                                line-height: var(--h2-line-height);
+                                font-weight: 700;
+                            }
+                        }
+                    }
+
+                    .profile-socials {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+
+                        .location {
+                            .location-name {
+                                font-size: 15px;
+                                line-height: 22px;
+                            }
+                        }
+
+                        .website {
+                            grid-row-start: 2;
+
+                            .website-link {
+                                font-size: 15px;
+                                line-height: 22px;
+                            }
+                        }
+
+                        .twitter {
+                            .twitter-name {
+                                font-size: 15px;
+                                line-height: 22px;
+                            }
+                        }
+
+                        .company {
+                            .company-name {
+                                font-size: 15px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        .app {
+            padding: 0 22.188rem;
+
+            .search-bar {
+                .search-button {
+                    margin-left: 24px;
+                }
+            }
+
+            .card {
+                padding-left: 3rem;
+                padding-right: 3rem;
+                padding-top: 3rem;
+
+                .profile {
+
+                    .profile-head {
+                        align-items: flex-start;
+                        margin-bottom: 0;
+
+                        .profile-image {
+                            margin-right: 2.313rem;
+                        }
+
+                        .profile-info {
+                            align-items: center;
+
+                            .name {
+                                margin-right: 8.625rem;
+                            }
+
+                            .date-joined {
+                                grid-column-start: 2;
+                                grid-row-start: 1;
+                            }
+                        }
+                    }
+
+                    .profile-bio {
+                        margin-left: 9.625rem;
+                        margin-top: -2rem;
+                    }
+
+                    .profile-stats {
+                        margin-left: 9.625rem;
+                    }
+
+                    .profile-socials {
+                        margin-left: 9.625rem;
                     }
                 }
             }

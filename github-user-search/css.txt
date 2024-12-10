@@ -1,526 +1,36 @@
-/* Group 9 */
-
-position: absolute;
-width: 327px;
-height: 517px;
-left: 24px;
-top: 181px;
-
-
-
-/* Rectangle Copy */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: #FEFEFE;
-box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
-border-radius: 15px;
-
-
 /* Group 7 */
 
 position: absolute;
-width: 233px;
-height: 70px;
-left: 24px;
-top: 32px;
+width: 429px;
+height: 63px;
+left: 40px;
+top: 378px;
 
-
-
-/* Oval */
-
-position: absolute;
-left: 7.34%;
-right: 71.25%;
-top: 6.19%;
-bottom: 80.27%;
-
-background: url(.png);
-
-
-/* Group 3 */
-
-position: absolute;
-left: 34.56%;
-right: 21.41%;
-top: 6.38%;
-bottom: 80.27%;
-
-
-
-/* @octocat */
-
-position: absolute;
-height: 19px;
-left: 0%;
-right: 55.56%;
-top: calc(50% - 19px/2 - 1px);
-
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 19px;
-
-color: #0079FF;
-
-
-
-/* The Octocat */
-
-position: absolute;
-height: 24px;
-left: 0.35%;
-right: 24.65%;
-top: calc(50% - 24px/2 - 22.5px);
-
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-
-color: #2B3442;
-
-
-
-/* Joined 25 Jan 2011 */
-
-position: absolute;
-height: 19px;
-left: 0%;
-right: 0%;
-top: calc(50% - 19px/2 + 24px);
-
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 19px;
-
-color: #697C9A;
-
-
-
-/* Lorem ipsum dolor si */
-
-position: absolute;
-height: 75px;
-left: 7.34%;
-right: 7.34%;
-top: calc(50% - 75px/2 - 86px);
-
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 25px;
-/* or 192% */
-
-color: #4B6A9B;
-
-
-
-/* Group 6 */
-
-position: absolute;
-width: 279px;
-height: 85px;
-left: 24px;
-top: 233px;
-
-
-
-/* Rectangle */
-
-position: absolute;
-left: 7.34%;
-right: 7.34%;
-top: 45.07%;
-bottom: 38.49%;
-
-background: #F6F8FF;
-border-radius: 10px;
-
-
-/* Group 4 */
-
-position: absolute;
-width: 250px;
-height: 48px;
-left: 39px;
-top: 251px;
-
-
-
-/* Group 2 */
-
-position: absolute;
-left: 11.93%;
-right: 63.91%;
-top: 48.55%;
-bottom: 42.17%;
-
-
-
-/* Repos */
-
-position: absolute;
-height: 16px;
-left: 0%;
-right: 0%;
-top: calc(50% - 16px/2 - 16px);
-
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 16px;
-text-align: center;
-
-color: #4B6A9B;
-
-
-
-/* 8 */
-
-position: absolute;
-height: 24px;
-left: 0%;
-right: 0%;
-top: calc(50% - 24px/2 + 12px);
-
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-text-align: center;
-text-transform: uppercase;
-
-color: #2B3442;
-
-
-
-/* Group 2 Copy */
-
-position: absolute;
-left: 36.39%;
-right: 38.84%;
-top: 48.55%;
-bottom: 42.17%;
-
-
-
-/* Followers */
-
-position: absolute;
-height: 16px;
-left: 0%;
-right: 0%;
-top: calc(50% - 16px/2 - 16px);
-
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 16px;
-text-align: center;
-
-color: #4B6A9B;
-
-
-
-/* 3938 */
-
-position: absolute;
-height: 24px;
-left: 2.2%;
-right: 0%;
-top: calc(50% - 24px/2 + 12px);
-
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-text-align: center;
-text-transform: uppercase;
-
-color: #2B3442;
-
-
-
-/* Group 2 Copy 2 */
-
-position: absolute;
-left: 61.16%;
-right: 11.62%;
-top: 48.55%;
-bottom: 42.17%;
-
-
-
-/* Following */
-
-position: absolute;
-height: 16px;
-left: 0%;
-right: 0%;
-top: calc(50% - 16px/2 - 16px);
-
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 16px;
-text-align: center;
-
-color: #4B6A9B;
-
-
-
-/* 9 */
-
-position: absolute;
-height: 24px;
-left: 0.12%;
-right: 1%;
-top: calc(50% - 24px/2 + 12px);
-
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-text-align: center;
-text-transform: uppercase;
-
-color: #2B3442;
-
-
-
-/* Group 8 */
-
-position: absolute;
-width: 185px;
-height: 127px;
-left: 24px;
-top: 342px;
-
-
-
-/* Group 16 */
-
-position: absolute;
-left: 7.34%;
-right: 50.76%;
-top: 66.15%;
-bottom: 29.98%;
-
-
-
-/* San Francisco */
-
-position: absolute;
-height: 19px;
-left: 24.09%;
-right: 0%;
-top: calc(50% - 19px/2 - 0.5px);
-
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 19px;
-
-color: #4B6A9B;
-
-
-
-/* 003-pin */
-
-position: absolute;
-width: 13.75px;
-height: 20px;
-left: 0px;
-top: 0px;
-
-
-
-/* Shape */
-
-position: absolute;
-left: 0%;
-right: 89.96%;
-top: 0%;
-bottom: 0%;
-
-background: #4B6A9B;
-
-
-/* Path */
-
-position: absolute;
-left: 0%;
-right: 89.96%;
-top: 0%;
-bottom: 0%;
-
-
-
-/* Path */
-
-position: absolute;
-left: 2.97%;
-right: 92.93%;
-top: 17.19%;
-bottom: 54.69%;
-
-
-
-/* Group 15 */
-
-position: absolute;
-left: 7.34%;
-right: 36.09%;
-top: 73.11%;
-bottom: 23.02%;
-
-
-
-/* https://github.blog */
-
-position: absolute;
-height: 19px;
-left: 17.84%;
-right: 0%;
-top: calc(50% - 19px/2 - 0.5px);
-
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 19px;
-
-color: #4B6A9B;
-
-
-
-/* 002-url */
-
-position: absolute;
-width: 19.99px;
-height: 19.94px;
-left: 0px;
-top: 0px;
-
-
-
-/* Path */
-
-position: absolute;
-left: 3.19%;
-right: 89.19%;
-top: 0%;
-bottom: 33.39%;
-
-background: #4B6A9B;
-
-
-/* Path */
-
-position: absolute;
-left: 0%;
-right: 92.39%;
-top: 33.24%;
-bottom: 0.27%;
-
-background: #4B6A9B;
-
-
-/* Group 17 */
-
-position: absolute;
-left: 7.34%;
-right: 50.76%;
-top: 80.08%;
-bottom: 16.05%;
-
-mix-blend-mode: normal;
-opacity: 0.5;
-
-
-/* Not Available */
-
-position: absolute;
-height: 19px;
-left: 24.09%;
-right: -0.73%;
-top: calc(50% - 19px/2 - 0.5px);
-
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 19px;
-
-color: #4B6A9B;
-
-
-
-/* 004-twitter */
-
-position: absolute;
-width: 20px;
-height: 16.25px;
-left: 0px;
-top: 1.88px;
-
-
-
-/* Path */
-
-position: absolute;
-left: 0%;
-right: 85.4%;
-top: 9.38%;
-bottom: 9.38%;
-
-background: #4B6A9B;
 
 
 /* Group 18 */
 
 position: absolute;
-left: 7.34%;
-right: 65.44%;
-top: 86.85%;
-bottom: 9.28%;
+left: 54.62%;
+right: 27.75%;
+top: 86.28%;
+bottom: 9.15%;
 
 
 
 /* @github */
 
 position: absolute;
-height: 19px;
-left: 37.08%;
+height: 22px;
+left: 35.64%;
 right: 0%;
-top: calc(50% - 19px/2 - 0.5px);
+top: calc(50% - 22px/2);
 
 font-family: 'Space Mono';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 19px;
+font-size: 15px;
+line-height: 22px;
 
 color: #4B6A9B;
 
@@ -532,7 +42,7 @@ position: absolute;
 width: 20px;
 height: 19.85px;
 left: 0px;
-top: 0.15px;
+top: 2.15px;
 
 
 
@@ -540,8 +50,8 @@ top: 0.15px;
 
 position: absolute;
 left: 0%;
-right: 86.42%;
-top: 0.74%;
+right: 88.04%;
+top: 9.77%;
 bottom: 0%;
 
 background: #4B6A9B;
@@ -551,8 +61,8 @@ background: #4B6A9B;
 
 position: absolute;
 left: 0%;
-right: 86.42%;
-top: 0.74%;
+right: 88.04%;
+top: 9.77%;
 bottom: 0%;
 
 
@@ -560,89 +70,89 @@ bottom: 0%;
 /* Path */
 
 position: absolute;
-left: 3.04%;
-right: 94.15%;
-top: 55.21%;
-bottom: 38.54%;
+left: 2.68%;
+right: 94.84%;
+top: 59.28%;
+bottom: 35.04%;
 
 
 
 /* Path */
 
 position: absolute;
-left: 3.04%;
-right: 94.15%;
-top: 42.71%;
-bottom: 51.04%;
+left: 2.68%;
+right: 94.84%;
+top: 47.92%;
+bottom: 46.4%;
 
 
 
 /* Path */
 
 position: absolute;
-left: 3.04%;
-right: 94.15%;
-top: 30.21%;
-bottom: 63.54%;
+left: 2.68%;
+right: 94.84%;
+top: 36.55%;
+bottom: 57.76%;
 
 
 
 /* Path */
 
 position: absolute;
-left: 3.04%;
-right: 94.15%;
-top: 17.71%;
-bottom: 76.04%;
+left: 2.68%;
+right: 94.84%;
+top: 25.19%;
+bottom: 69.13%;
 
 
 
 /* Path */
 
 position: absolute;
-left: 7.72%;
-right: 89.47%;
-top: 55.21%;
-bottom: 38.54%;
+left: 6.81%;
+right: 90.72%;
+top: 59.28%;
+bottom: 35.04%;
 
 
 
 /* Path */
 
 position: absolute;
-left: 7.72%;
-right: 89.47%;
-top: 42.71%;
-bottom: 51.04%;
+left: 6.81%;
+right: 90.72%;
+top: 47.92%;
+bottom: 46.4%;
 
 
 
 /* Path */
 
 position: absolute;
-left: 7.72%;
-right: 89.47%;
-top: 30.21%;
-bottom: 63.54%;
+left: 6.81%;
+right: 90.72%;
+top: 36.55%;
+bottom: 57.76%;
 
 
 
 /* Path */
 
 position: absolute;
-left: 7.72%;
-right: 89.47%;
-top: 17.71%;
-bottom: 76.04%;
+left: 6.81%;
+right: 90.72%;
+top: 25.19%;
+bottom: 69.13%;
 
 
 
 /* Shape */
 
 position: absolute;
-left: 14.51%;
-right: 77.53%;
-top: 38.96%;
+left: 12.79%;
+right: 80.2%;
+top: 44.51%;
 bottom: 0%;
 
 background: #4B6A9B;
@@ -651,9 +161,9 @@ background: #4B6A9B;
 /* Path */
 
 position: absolute;
-left: 14.51%;
-right: 77.53%;
-top: 38.96%;
+left: 12.79%;
+right: 80.2%;
+top: 44.51%;
 bottom: 0%;
 
 
@@ -661,176 +171,208 @@ bottom: 0%;
 /* Path */
 
 position: absolute;
-left: 16.85%;
-right: 80.34%;
-top: 81.25%;
-bottom: 12.5%;
+left: 14.85%;
+right: 82.67%;
+top: 82.95%;
+bottom: 11.36%;
 
 
 
 /* Path */
 
 position: absolute;
-left: 16.85%;
-right: 80.34%;
-top: 68.75%;
-bottom: 25%;
+left: 14.85%;
+right: 82.67%;
+top: 71.59%;
+bottom: 22.73%;
 
 
 
 /* Path */
 
 position: absolute;
-left: 16.85%;
-right: 80.34%;
-top: 56.25%;
-bottom: 37.5%;
+left: 14.85%;
+right: 82.67%;
+top: 60.23%;
+bottom: 34.09%;
 
 
 
-
-/* Group 2 */
-
-position: absolute;
-width: 327px;
-height: 60px;
-left: 24px;
-top: 105px;
-
-
-
-/* Rectangle Copy 2 */
+/* Group 16 */
 
 position: absolute;
-left: 0%;
+left: 6.98%;
+right: 66.32%;
+top: 78.59%;
+bottom: 16.84%;
+
+
+
+/* San Francisco */
+
+position: absolute;
+height: 22px;
+left: 21.57%;
 right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: #FEFEFE;
-box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
-border-radius: 15px;
-
-
-/* Search GitHub userna */
-
-position: absolute;
-height: 25px;
-left: 13.76%;
-right: 29.97%;
-top: calc(50% - 25px/2 + 0.5px);
+top: calc(50% - 22px/2);
 
 font-family: 'Space Mono';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 25px;
-/* identical to box height, or 192% */
+font-size: 15px;
+line-height: 22px;
 
 color: #4B6A9B;
 
 
 
-/* Shape 2 */
+/* 003-pin */
 
 position: absolute;
-width: 20.05px;
+width: 13.75px;
 height: 20px;
-left: 16px;
-top: 20px;
+left: 0px;
+top: 2px;
 
-
-
-/* Combined Shape */
-
-position: absolute;
-left: 4.89%;
-right: 88.98%;
-top: 33.33%;
-bottom: 33.33%;
-
-background: #0079FF;
 
 
 /* Shape */
 
 position: absolute;
-left: 4.89%;
-right: 89.7%;
-top: 33.33%;
-bottom: 37.28%;
+left: 0%;
+right: 91.01%;
+top: 9.09%;
+bottom: 0%;
 
-background: #FF411F;
-
-
-/* Path */
-
-position: absolute;
-left: 4.89%;
-right: 89.7%;
-top: 33.33%;
-bottom: 37.28%;
-
+background: #4B6A9B;
 
 
 /* Path */
-
-position: absolute;
-left: 5.34%;
-right: 90.14%;
-top: 35.75%;
-bottom: 39.69%;
-
-
-
-/* Path */
-
-position: absolute;
-left: 9.13%;
-right: 88.98%;
-top: 56.36%;
-bottom: 33.33%;
-
-background: #FF411F;
-
-
-/* Group */
-
-position: absolute;
-left: 72.17%;
-right: 2.14%;
-top: 10.83%;
-bottom: 12.5%;
-
-
-
-/* Rectangle Copy 3 */
 
 position: absolute;
 left: 0%;
-right: 0%;
-top: 0%;
+right: 91.01%;
+top: 9.09%;
 bottom: 0%;
 
-background: #0079FF;
-border-radius: 10px;
 
 
-/* Search */
+/* Path */
 
 position: absolute;
-height: 21px;
-left: 21.43%;
-right: 16.67%;
-top: calc(50% - 21px/2);
+left: 2.66%;
+right: 93.67%;
+top: 24.72%;
+bottom: 49.72%;
+
+
+
+/* Group 17 */
+
+position: absolute;
+left: 54.62%;
+right: 18.15%;
+top: 78.59%;
+bottom: 16.84%;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+
+
+/* Not Available */
+
+position: absolute;
+height: 22px;
+left: 23.08%;
+right: 0%;
+top: calc(50% - 22px/2);
 
 font-family: 'Space Mono';
 font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height */
-text-align: center;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
 
-color: #FFFFFF;
+color: #4B6A9B;
 
+
+
+/* 004-twitter */
+
+position: absolute;
+width: 20px;
+height: 16.25px;
+left: 0px;
+top: 3.88px;
+
+
+
+/* Path */
+
+position: absolute;
+left: 0%;
+right: 87.18%;
+top: 17.61%;
+bottom: 8.52%;
+
+background: #4B6A9B;
+
+
+/* Group 15 */
+
+position: absolute;
+left: 6.98%;
+right: 56.72%;
+top: 87.11%;
+bottom: 8.32%;
+
+
+
+/* https://github.blog */
+
+position: absolute;
+height: 22px;
+left: 15.87%;
+right: 0%;
+top: calc(50% - 22px/2);
+
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+
+color: #4B6A9B;
+
+
+
+/* 002-url */
+
+position: absolute;
+width: 19.99px;
+height: 19.94px;
+left: 0px;
+top: 2px;
+
+
+
+/* Path */
+
+position: absolute;
+left: 2.84%;
+right: 90.39%;
+top: 9.09%;
+bottom: 30.35%;
+
+background: #4B6A9B;
+
+
+/* Path */
+
+position: absolute;
+left: 0%;
+right: 93.23%;
+top: 39.31%;
+bottom: 0.25%;
+
+background: #4B6A9B;
