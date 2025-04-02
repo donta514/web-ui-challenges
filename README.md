@@ -8,5 +8,9 @@ A list of completed Frontend Mentor projects for general practice, deployed usin
 
 ## Article Preview Component
 
-https://web-ui-challenges-ecru.vercel.app/
+https://article-preview-component-gold-six.vercel.app/
+
+## Github User Search
+
+https://github-user-search-phi-eosin.vercel.app/
 
