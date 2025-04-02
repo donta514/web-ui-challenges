@@ -95,3 +95,43 @@ document.addEventListener("DOMContentLoaded", () => {
 
   fetchUsers("octocat");
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const logo = document.querySelector(".logo");
+  const toggle = document.querySelector(".toggle");
+  const toggleMode = document.querySelector(".toggle-mode");
+  const toggleIcon = document.querySelector(".toggle-icon");
+
+  // Function to update UI based on current theme
+  const updateTheme = () => {
+    const isDark = document.body.classList.contains("dark-mode");
+    logo.src = isDark
+      ? "./assets/icon-logo-white.svg"
+      : "./assets/icon-logo-black.svg";
+    toggleMode.textContent = isDark ? "LIGHT" : "DARK";
+    toggleIcon.src = isDark
+      ? "./assets/icon-sun.svg"
+      : "./assets/icon-moon.svg";
+    toggleIcon.alt = isDark ? "Toggle light mode" : "Toggle dark mode";
+    document
+      .querySelectorAll(
+        ".location-icon, .website-icon, .twitter-icon, .company-icon"
+      )
+      .forEach((icon) => {
+        icon.style.filter = isDark ? "brightness(0) invert(1)" : "none";
+      });
+  };
+
+  // Apply system preference on page load
+  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    document.body.classList.add("dark-mode");
+  }
+
+  updateTheme();
+
+  // Event listener for toggling mode
+  toggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+    updateTheme();
+  });
+});

@@ -10,7 +10,7 @@
       sizes="32x32"
       href="./assets/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Frontend Mentor | GitHub User Search App</title>
   </head>
   <body>
@@ -57,19 +57,21 @@
 
           <!-- Profile Card -->
           <div class="card" role="region" aria-labelledby="profile-heading">
-            <div class="profile">
+            <div class="profile-wrapper">
+              <img
+                src=""
+                alt="GitHub user's profile picture"
+                class="profile-image"
+              />
               <div class="profile-head">
-                <img
-                  src=""
-                  alt="GitHub user's profile picture"
-                  class="profile-image"
-                />
                 <div class="profile-info">
                   <h1 class="name"></h1>
                   <p class="login" aria-label="Username"></p>
                   <p class="date-joined" aria-label="Date joined"></p>
                 </div>
               </div>
+            </div>
+            <div class="profile">
               <p class="profile-bio" aria-label="User bio"></p>
 
               <!-- Profile Stats -->
@@ -103,7 +105,7 @@
                   <img
                     src="./assets/icon-location.svg"
                     alt=""
-                    class="location-icon"
+                    class="location-icon svgIcon"
                     aria-hidden="true"
                   />
                   <p class="location-name" aria-label="Location">Location</p>
@@ -112,7 +114,7 @@
                   <img
                     src="./assets/icon-website.svg"
                     alt=""
-                    class="website-icon"
+                    class="website-icon svgIcon"
                     aria-hidden="true"
                   />
                   <a
@@ -127,7 +129,7 @@
                   <img
                     src="./assets/icon-twitter.svg"
                     alt="Twitter icon"
-                    class="twitter-icon"
+                    class="twitter-icon svgIcon"
                   />
                   <a
                     href="#"
@@ -140,7 +142,7 @@
                   <img
                     src="./assets/icon-company.svg"
                     alt=""
-                    class="company-icon"
+                    class="company-icon svgIcon"
                     aria-hidden="true"
                   />
                   <a href="#" class="company-name" aria-label="Company link"
