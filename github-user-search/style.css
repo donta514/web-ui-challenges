@@ -154,6 +154,7 @@ input::placeholder {
 }
 
 .attribution {
+    display: none;
     font-size: 11px;
     text-align: center;
     position: absolute;
@@ -166,6 +167,13 @@ input::placeholder {
     a {
         color: var(--text-secondary-light);
     }
+}
+
+.toggle:hover .toggle-icon,
+.toggle:hover .toggle-mode {
+    cursor: pointer;
+    filter: opacity(0.5);
+    transition: ease 0.3s;
 }
 
 .container {
@@ -194,10 +202,6 @@ input::placeholder {
                 align-items: center;
                 gap: 1rem;
 
-                :hover {
-                    cursor: pointer;
-                }
-
                 .toggle-mode {
                     font-size: var(--h4-size);
                     font-weight: bold;
@@ -209,7 +213,6 @@ input::placeholder {
                 .toggle-icon {
                     max-width: 20px;
                     max-height: 20px;
-
                 }
             }
         }
