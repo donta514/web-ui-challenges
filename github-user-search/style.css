@@ -128,6 +128,7 @@ input::placeholder {
     --text-primary-light: var(--text-white);
     --text-secondary-light: var(--text-white);
     --text-muted-light: var(--text-white);
+    transition: ease .3s;
 }
 
 /* States */
@@ -174,6 +175,11 @@ input::placeholder {
     cursor: pointer;
     filter: opacity(0.5);
     transition: ease 0.3s;
+}
+
+.search-button:hover {
+    filter: brightness(1.2);
+    transition: ease .3s;
 }
 
 .container {
