@@ -82,16 +82,6 @@ button {
     /* Example error color for no results state */
 }
 
-/* Dark Mode Specific Variables */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-light: var(--background-dark);
-        --card-light: var(--card-dark);
-        --text-primary-light: var(--text-white);
-        --text-secondary-light: var(--text-white);
-    }
-}
-
 /* Typography Styles */
 h1 {
     font-size: var(--h1-size);
@@ -161,6 +151,21 @@ input::placeholder {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--text-primary-light);
+
+    a {
+        color: var(--text-secondary-light);
+    }
 }
 
 .container {
