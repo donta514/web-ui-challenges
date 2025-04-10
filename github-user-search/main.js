@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  fetchUsers("octocat");
+  fetchUsers("donta514");
 });
 
 document.addEventListener("DOMContentLoaded", () => {
